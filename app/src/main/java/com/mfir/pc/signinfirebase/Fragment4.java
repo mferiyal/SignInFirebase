@@ -40,7 +40,8 @@ public class Fragment4 extends Fragment {
                 String loginemail = email.getText().toString();
                 String loginpassword = password.getText().toString();
 
-                // batas fragment firebase
+
+                // untuk melemparkan nilai je firebase
 
                 mAuth.createUserWithEmailAndPassword(loginemail, loginpassword)
                         .addOnCompleteListener( new OnCompleteListener<AuthResult>() {
